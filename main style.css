@@ -1,0 +1,198 @@
+
+body{
+    margin:0%;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-left{
+    width: 25vw;
+    height:100vh;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(32, 28, 28);
+}
+.left-top{
+    height:20vh;
+    border: 2px solid black;
+}
+.left-logo{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    
+}
+.left-p{
+    font-weight: bold;
+    height:20px;
+}
+.applogo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding-left: 30px;
+    height: 50px;
+    background-color: white;
+
+
+}
+.applogo1{
+    height:30px;
+    width: 30px;
+    padding: 10px;
+
+    
+}    
+.left-bottom{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    text-align: left;
+    padding-left: 20px;
+}
+.Home{
+    display:flex;
+    flex-direction: row;
+    transition: transform 0.2s ease;
+    justify-content: start;
+    height:50px;
+    text-align: block;
+    
+}
+.Home:hover{
+    
+    transform: scale(1.2);
+    background-color: rgb(66, 61, 61);
+
+}
+
+.icon{
+    padding-left: 20px;
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+}
+
+.About{
+    display:flex;
+    flex-direction: row;
+    transition: transform 0.2s ease;
+    justify-content: start;
+    height:50px;
+
+}
+.About:hover{
+    
+    transform: scale(1.2);
+    background-color: rgb(66, 61, 61);
+
+}
+.Resume{
+    display:flex;
+    flex-direction: row;
+    transition: transform 0.2s ease;
+    justify-content: start;
+    height:50px;
+
+}
+.Resume:hover{
+    
+    transform: scale(1.2);
+    background-color: rgb(66, 61, 61);
+
+}
+.Services{
+    display:flex;
+    flex-direction: row;
+    transition: transform 0.2s ease;
+    justify-content: start;
+    height:50px;
+
+}
+.Services:hover{
+    
+    transform: scale(1.2);
+    background-color: rgb(66, 61, 61);
+
+}
+.Contact{
+    display:flex;
+    flex-direction: row;
+    transition: transform 0.2s ease;
+    justify-content: start;
+    height:50px;
+
+}
+.Contact:hover{
+    
+    transform: scale(1.2);
+    background-color: rgb(66, 61, 61);
+
+}
+.Portfolio{
+    display:flex;
+    flex-direction: row;
+    transition: transform 0.2s ease;
+    justify-content: start;
+    height:50px;
+
+}
+.Portfolio:hover{
+    
+    transform: scale(1.2);
+    background-color: rgb(66, 61, 61);
+
+}
+.a-p{
+    font-size: 20px;
+    font-weight: bold; 
+    padding-left: 10px;
+    color: inherit; /* Inherit the default color */
+  text-decoration: none; 
+  padding-top: 10px;
+  
+}
+
+.main-right{
+    width: 80vw;
+    height: 100vh;
+    position: relative;
+}
+.right-bg{
+    width: 75vw;
+  height: 100vh;
+  position:relative;
+
+  background-image: url('https://cdn.123telugu.com/content/wp-content/uploads/2023/12/Nani-m.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  
+  line-height: 300px;
+}
+
+
+
+.right-text{
+    width: 75vw;
+  height: 100vh;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    position:absolute;
+    text-align: center;
+    background-size: cover;
+    background-color: white ;
+    opacity: 0.3;
+ 
+}
+
+.icon-h3{
+    margin:30px;
+    bottom:70px;
+}

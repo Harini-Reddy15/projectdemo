@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(199, 251, 147);
+}
+.navbar-left{
+    padding-left: 20px;
+}
+.navbar-right{
+    padding-right: 20px;
+    display:flex;
+    flex-direction: row;
+ 
+    align-items: center;
+
+}
+.a-element{
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    border: 2px solid black;
+}
+.home-left{
+    width: 50vw;
+    text-align: right;
+    justify-content: center;
+    padding-left: 50px;
+}
+.home-right{
+    width: 50vw;
+    padding-left:80px;
+}
+.img1{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+
+
+.img2{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+
+}
+.img3{
+    height:50px;
+    width:50px;
+    border-radius: 5px;
+}
+.Services{
+   padding: 50px;
+   text-align: center;
+   p{
+    font-size: 20px;
+   }
+}
+.Ser-h1{    
+    font-size: 60px;
+    color:green;
+}
+.services-sub-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.services-card{
+    border: 2px solid green;
+    padding: 18px;
+    margin: 10px;
+}
+.contacts{
+    text-align: center;
+}
+.cont-h1{
+    height:30px;
+    color:green;
+    letter-spacing: 2px;
+}
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cont-p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: inherit; /* Inherit the default color */
+  text-decoration: none; 
+}
+.test-logo{
+    height: 50px;
+}
